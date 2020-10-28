@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* HEADER SECTION */
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+#banner {
+    background-image: url(./assets/visual/images/banner.jpg\,2000x2000);
+    height: 200px;
+    background-size: 100%;
+    background-position: left;
+}
+
+/* MAIN SECTION */
+
+main {
+    margin: 50px 20px 50px 20px;
+}
+
+hr {
+    margin-bottom: 80px;
+}
+
+main .artist {
+    margin-bottom: 100px;
+}
+
+main .bio {
+    margin-bottom: 50px;
+    min-height: 400px;
+    display: flow-root;
+}
+
+main h3 {
+    font-size: 30px;
+    margin: 0px 0 10px 0px;
+}
+
+main .birth-death {
+    display: block;
+    margin: 0 0 20px 0;
+    font-style: italic;
+}
+
+main .photo {
+    height: 300px;
+    margin: 0px 30px 0px 0;
+    float: left;
+}
+
+main p {
+    text-align: justify;
+    margin: 0px 20px 0px 20px;
+    padding: 40px 0px;
+}
+
+main .paintingSection {
+    margin: 0 auto;
+    text-align: center;
+    display: flow-root;
+
+}
+
+main .title {
+    position: relative;
+    bottom: 200px;
+    display: inline-block;
+    font-style: italic;
+}
+
+main .painting {
+    display: inline;
+    position: relative;
+    left: 50px;
+    height: 400px;
+    /* float: right; */
+}
+
+footer {
+    background-color: #1c1c1c;
+    padding: 10px 20px 80px;
+    
+}
+
+footer h4 {
+    font-weight: normal;
+    font-size: 25px
+}
+
+footer img {
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+footer p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 18px
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

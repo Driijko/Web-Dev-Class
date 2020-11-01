@@ -1,0 +1,200 @@
+/* COLOR SCHEME */
+/* 7E2020 */
+/* C33232 */
+/* DDE8B9 */
+/* E8D2AE */
+/* FCBCB8 */
+
+@font-face {
+    font-family: Clutchee;
+    src: url(./assets/visual/fonts/clutchee.otf);
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: rgb(36, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER SECTION */
+
+#headerWrapper {
+    margin: 0;
+    background-color: black;
+    border-bottom: 5px solid red;
+}
+
+
+header {
+    padding-top: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    color: rgb(155, 3, 3);
+    text-shadow: 0px 0px 25px red;
+}
+#pageTitle {
+    text-align: center;
+}
+
+#pageTitle h1 {
+    margin: 30px 0 10px 0;
+    font-family: Righteous, cursive;
+
+}
+
+#pageTitle p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 200;
+    color: rgb(168, 98, 113);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    max-width: 960px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+nav li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px 15% 0px 15%;
+    border: 5px solid rgba(0, 0, 0, 0);
+    font-size: 0.75em;
+    color: rgb(221, 2, 2);
+}
+
+nav a:hover {
+    border: 5px solid red;
+    border-radius: 20px 20px 0 0;
+    background-color: red;
+    color: white;
+}
+
+
+/* MAIN SECTION */
+main {
+    max-width: 960px;
+    margin: 70px auto 50px auto;
+}
+
+article {
+    max-width: 300px;
+    border: 3px dashed red;
+    border-radius: 5px;
+    margin: 0 auto 50px auto;
+    color: rgb(201, 13, 54);
+    background-color: rgb(51, 2, 2);
+}
+
+article:hover {
+    z-index: 1;
+}
+
+article h2 {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    text-align: center;
+}
+
+article img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    box-shadow: 0 0 50px 20px rgb(0, 0, 0);
+}
+
+article p {
+    margin: 10px 30px;
+    font-size: 0.65em;
+    text-align: center;
+}
+
+article a {
+    display: block;
+    max-width: 100%;
+    border: 1px dashed white;
+    border-radius: 50%;
+    margin: 20px auto 10px auto;
+    font-size: 0.7em;
+    text-align: center;
+    color: rgb(168, 98, 113);
+    background-color: black;
+}
+
+article a:hover {
+    color: white;
+    box-shadow: 0 0 50px 100px black;
+}
+
+/* TABLET TO 4K SCREENS /////////////////////////////////////////////// */
+
+@media screen and (min-width: 780px) {
+
+body {
+    font-size: 1.3em;
+}
+
+/* HEADER SECTION ////////////////// */
+header {
+    font-size: 1.2em;
+}
+
+header h1 {
+    text-shadow: 0px 0px 30px red;
+}
+
+#articleSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 10px;
+}
+
+.articleBodyWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    flex: 9;
+}
+
+
+
+.articleLinkWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    flex: 1;
+}
+
+article a {
+    margin: 0;
+}
+
+
+
+
+}

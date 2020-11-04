@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="./assets/visual/icons/favicon.ico" />
+        <script src="https://kit.fontawesome.com/df21792672.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <title>CSS Reference</title>
+    </head>
+    <body>
+        <div id="wrapper" >
+            <a href="#main-title"><i class="fas fa-arrow-up fa-2x circle"></i></a>
+            <h1 id="main-title">CSS REFERENCE</h1>
+
+            <a href="#intro"><h1>1. An Intro to CSS</h1></a>
+            <a href="#css-selectors"><h1>2. CSS Selectors</h1></a>
+            <a href="#rule-conflicts"><h1>3. Rule Conflicts</h1></a>
+            <h1>4. Inheritance</h1>
+            <a href="#property-categories"><h1>5. Basic Categories of CSS Properties</h1></a>
+            <a href="#value-categories"><h1>6. Basic Categories of CSS Values</h1></a>
+            <a href="#layout-1"><h1>7. Layout Part 1: Basics of CSS Layout</h1></a>
+            <a href="#text"><h1>8. Text and Fonts</h1></a>
+            <a href="#color"><h1>9. Color</h1></a>
+            <a href="#images"><h1>10. Images</h1></a>
+            <a href="#gradients"><h1>11. Gradients</h1></a>
+            <a href="#form"><h1>12. Form</h1></a>
+            <a href="#layout-2"><h1>13. Layout Part 2: Contemporary Tools</h1></a>
+            <a href="#flexbox"><h2>13.1 Flexbox</h2></a>
+            <a href="#grid"><h2>13.2 Grid</h2></a>
+            <a href=""><h1>14. Animation</h1></a>
+            <a href=""><h1>15. User Interactivity with CSS</h1></a>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div class="link-target" id="intro"></div>
+            <div>
+                <h1>1. An Intro to CSS</h1>
+                <h2>What is CSS?</h2>
+                <h2>Default Styles and Reset Sheets</h2>
+                <h2>Inline, Internal and External CSS</h2>
+                <h2>Comments</h2>
+                <h2>CSS Rules</h2>
+                <h3>Rules</h3>
+                <h3>Selectors</h3>
+                <h3>Declarations</h3>
+                <h3>Properties</h3>
+                <h3>Values</h3>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div class="link-target" id="css-selectors"></div>
+            <div>
+                <h1>2. CSS Selectors</h1>
+                <h2>Simple</h2>
+                <h3>Element / Type</h3>
+                <h3>Class</h3>
+                <h3>Id</h3>
+                <h3>Attribute</h3>
+                <h3>The Universal Selector</h3>
+                <h3>Group</h3>
+                <h2>Combinator</h2>
+                <h3>Descendent</h3>
+                <h3>Child ></h3>
+                <h3>Adjacent Sibling +</h3>
+                <h3>General Sibling ~</h3>
+                <h2>Pseudos</h2>
+                <h3>Pseudo-Classes</h3>
+                <h4>Structural</h4>
+                <h4>Behavioural</h4>
+                <h3>Pseudo-Elements</h3>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div class="link-target" id="rule-conflicts"></div>
+            <div>
+                <h1>3. Rule Conflicts</h1>
+                <h2>The Cascade</h2>
+                <h2>Specificity</h2>
+                <h2>!important</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="property-categories" class="link-target"></div>
+            <div>
+                <h1>5. Basic Categories of CSS Properties</h1>
+                <h2>Layout</h2>
+                <h2>Content</h2>
+                <h3>Text</h3>
+                <h3>Color and Form</h3>
+                <h3>Media</h3>
+                <h2>Animation</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="value-categories" class="link-target"></div>
+            <div>
+                <h1>6. Basic Categories of CSS Values</h1>
+                <h2>Keywords</h2>
+                <h2>Units</h2>
+                <h3>Fixed vs. Relative Units</h3>
+                <h3>Pixels</h3>
+                <h3>Percentages</h3>
+                <h3>Font-Specific</h3>
+                <h4>ch, ex</h4>
+                <h4>em, rem</h4>
+                <h3>Viewport-Specific</h3>
+                <h4>vw, vh, vmin, vmax</h4>
+                <h3>Time</h3>
+                <h4>ms, s</h4>
+                <h3>Angles</h3>
+                <h4>deg, rads, grads, turns</h4>
+                <h3>Unit Calculation Functions</h3>
+                <h4>calc(), min(), max(), minmax, clamp()</h4>
+                <h2>Functions</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="layout-1" class="link-target"></div>
+            <div>
+                <h1>7. Layout Part 1: Basic Tools of CSS Layout</h1>
+                <h2>The Four Eras of Website Layout</h2>
+                <h3>Before CSS</h3>
+                <h3>The Table Era</h3>
+                <h3>Floated Elements and the Position Property</h3>
+                <h3>Contemporay Layout: Flexbox, Grid and Responsive Design</h3>
+                <h2>Fundamental Issues of Website Layout</h2>
+                <h3>Device Screens and Browser Windows</h3>
+                <h3>The Scroll Analogy and Asymmetry of Width and Height</h3>
+                <h2>The Box Model</h2>
+                <h3>The Four Layers of an Element's Box</h3>
+                <h4>content, padding, border and margin</h4>
+                <h4>width, height, min / max</h4>
+                <h4>box-sizing</h4>
+                <h3>Dealing with Content</h3>
+                <h4>overflow and resize</h4>
+                <h4>Images: object-fit and object-position</h4>
+                <h2>Page Layout</h2>
+                <h3>Normal Document Flow</h3>
+                <h4>block, inline, and inline-block</h4>
+                <h4>collapsing margins</h4>
+                <h4>limits of normal document flow</h4>
+                <h3>Lists and Tables</h3>
+                <h3>Floated Elements</h3>
+                <h4>float and clear</h4>
+                <h3>The "position" Property</h3>
+                <h4>Relative</h4>
+                <h4>Absolute</h4>
+                <h4>Fixed</h4>
+                <h4>Sticky</h4>
+                <h4>Combining Relative and Absolute Positioning</h4>
+                <h3>Stacking Order and the "z-index" Property</h3>
+                <h3>"display: none" and the "visibility" Property</h3>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="text" class="link-target"></div>
+            <div>
+                <h1>8. Text and Fonts</h1>
+                <h2>Fonts</h2>
+                <h3>The "font-family" Property</h3>
+                <h3>Web Safe Fonts</h3>
+                <h3>Google Fonts</h3>
+                <h3>Font Squirrel and Using the "@font-face" Rule</h3>
+                <h2>Text-Specific Layout</h2>
+                <h3>Font Size</h3>
+                <h3>Letter / Word - Spacing</h3>
+                <h3>Line Height</h3>
+                <h3>Text Columns</h3>
+                <h2>Text Appearance</h2>
+                <h3>Text Color</h3>
+                <h3>Font Weight</h3>
+                <h3>Font Style</h3>
+                <h3>Text Decoration</h3>
+                <h3>Text Alignment</h3>
+                <h3>Direction and Writing Mode</h3>
+                <h3>Text Shadow</h3>
+                <h4>multiple shadows, -px for border effect</h4>
+                <h2>The "font" Property</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="color" class="link-target"></div>
+            <div>
+                <h1>9. Color</h1>
+                <h2>Color Values</h2>
+                <h3>Color Keywords</h3>
+                <h3>Hex Colors</h3>
+                <h3>RGB</h3>
+                <h3>HSL</h3>
+                <h3>Alpha Value</h3>
+                <h3>Using CSS Variables for a Color Scheme</h3>
+                <h2>Coloring Boxes</h2>
+                <h3>Background</h3>
+                <h3>Border</h3>
+                <h3>Outline</h3>
+                <h3>Opacity</h3>
+                <h3>Blend Modes</h3>
+                <h4>mix-blend-mode</h4>
+                <h4>multiply, screen, overlay, darken, lighten, color-dodge,</h4>
+                <h4>color-burn, hard-light, soft-light, difference, exclusion,</h4>
+                <h4>hue, saturation, color, luminosity</h4>
+                <h4>"outset" and "inset" keywords</h4>
+                <h3>Filters</h3>
+                <h4>blur, brightness, contrast, drop-shadow, grayscale,</h4>
+                <h4>hue rotate, invert, opacity, saturate, sepia</h4>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="images" class="link-target"></div>
+            <div>
+                <h1>10. Images</h1>
+                <h2>Background Images</h2>
+                <h3>Values</h3>
+                <h4>size, origin, position, repeat</h4>
+                <h4>attachment, background-blend-mode, clip</h4>
+                <h3>Multiple Images</h3>
+                <h4>cross-blend</h4>
+                <h2>Border Images</h2>
+                <h3>Values</h3>
+                <h4>source, slice, width, repeat, outset</h4>
+                <h2>List Images</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="gradients" class="link-target"></div>
+            <div>
+                <h1>11. Gradients</h1>
+                <h2>Linear</h2>
+                <h2>Radial</h2>
+                <h2>Conic</h2>
+                <h2>Repeating Gradients</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="form" class="link-target"></div>
+            <div>
+                <h1>12. Form</h1>
+                <h2>Border and Outline Styles</h2>
+                <h2>Border Radius</h2>
+                <h2>Box Shadows</h2>
+                <h3>Horizontal and Vertical Offsets, Positive or Negative</h3>
+                <h3>Blur, Spread, Color</h3>
+                <h2>The "list-style-type" Property</h2>
+                <h2>Cursor</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="layout-2" class="link-target"></div>
+            <div>
+                <h1>13. Layout Part 2: Contemporary Tools</h1>
+                <h2>Layout Issues Which Led to the Contemporary Era</h2>
+                <h3>The Advent of Mobile and Need for Responsive Design</h3>
+                <h3>Limitations of the Third Era</h3>
+                <h2>Basics of Responsive Design</h2>
+                <h3>The Viewport Meta Tag</h3>
+                <h3>Media Queries</h3>
+                <h3>The Picture Element</h3>
+                <h2>Flexbox</h2>
+                <h2>Grid</h2>
+                <h2>A Systematic Approach to Website Layout</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="flexbox" class="link-target"></div>
+            <div>
+                <h1>13.1 Flexbox</h1>
+                <h2>The Purpose of Flexbox</h2>
+                <h2>Flex-Containers vs. Flex-Items</h2>
+                <h3>block vs. inline flex-containers</h3>
+                <h2>Managing Extra Space</h2>
+                <h3>Flex-Grow</h3>
+                <h4>"flex-grow" and "min-width"</h4>
+                <h4>width overrides flex-grow</h4>
+                <h3>Flex-Shrink</h3>
+                <h4>"flex-shrink" and "width"</h4>
+                <h4>"flex-shrink" can't override percentage widths</h4>
+                <h3>Flex-Basis</h3>
+                <h4>"flex-basis" can be overriden when a flex container shrinks</h4>
+                <h3>"flex" Shorthand</h3>
+                <h4>grow shrink basis</h4>
+                <h2>Flow</h2>
+                <h3>Flex-wrap</h3>
+                <h3>Flex-direction</h3>
+                <h4>row vs. column</h4>
+                <h4>main-axis vs. cross-axis</h4>
+                <h3>"flex-flow" Shorthand</h3>
+                <h2>Alignment</h2>
+                <h3>Justify vs. Align: Main-axis vs. Cross-axis</h3>
+                <h3>Items</h3>
+                <h3>Content</h3>
+                <h3>Self</h3>
+                <h3>"margin: auto" for Centering Text</h3>
+                <h2>Order</h2>
+            </div>
+            <hr/>
+            <br/>
+            <br/>
+
+            <div id="grid" class="link-target"></div>
+            <div>
+                <h1>13.2 Grid</h1>
+                <h2>The Purpose of CSS Grid</h2>
+                <h2>Grid-Containers vs. Grid-Items</h2>
+                <h3>Block vs. Inline Grid Containers</h3>
+                <h2>Grid Templates</h2>
+                <h3>Columns</h3>
+                <h3>Rows</h3>
+                <h3>Convenient Tools</h3>
+                <h4>fr, repeat( ), minmax( )</h4>
+                <h3>Areas</h3>
+                <h4>Naming Areas</h4>
+                <h5>"." for blank spaces</h5>
+                <h4>Mirror Layout</h4>
+                <h2>Auto-Placement</h2>
+                <h2>Alignment</h2>
+                <h3>Items</h3>
+                <h3>Content</h3>
+                <h3>Self</h3>
+                <h3>"place" Shorthand</h3>
+                <h2>Nesting Grids</h2>
+            </div>
+
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,68 @@
+:root {
+    --color1: magenta;
+    --color2: rgb(8, 199, 199);
+    --color3: brown;
+    --color4: rgb(201, 201, 122);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    max-width: 960px;
+    padding: 50px;
+    margin: 0 auto 400px auto;
+}
+
+span {
+    color: red;
+}
+
+.drop-down-contents {
+    display: none;
+}
+
+.drop-down-header:hover + div {
+    display: block;
+}
+
+#main-title {
+    font-size: 60px;
+}
+
+h1 {
+    text-shadow: 0px 0px 30px
+
+}
+
+h2 {
+    text-indent: 30px;
+    color: var(--color1);
+    font-size: 1.6em;
+}
+
+h3 {
+    text-indent: 60px;
+    color: var(--color2);
+    font-size: 1.4em;
+}
+
+h4 {
+    text-indent: 90px;
+    color: var(--color3);
+    font-size: 1.3em;
+}
+
+h5 {
+    text-indent: 120px;
+    color: var(--color4);
+    font-size: 1.2em;
+}
+
+h6 {
+    text-indent: 150px;
+}
